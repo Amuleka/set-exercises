@@ -52,4 +52,4 @@ These set operations provide convenient ways to work with multiple sets and perf
 
 It is time to test your knowledge. Click on [this link](https://github.com/Amuleka/set-exercises/blob/main/set-incomplete.py) to do the exercise.
 
-Once you've done it or tried it for a couple of times you [can check the solution](https://github.com/Amuleka/set-exercises/blob/main/set-complete.py).
+Once you've done it or tried it for a couple of times you can check the solution [here](https://github.com/Amuleka/set-exercises/blob/main/set-complete.py).
