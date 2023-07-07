@@ -47,3 +47,9 @@ In addition to the basic set operations, sets also support operations to combine
     Difference: Returns a new set containing the elements present in the first set but not in the second set.
 
 These set operations provide convenient ways to work with multiple sets and perform logical operations on their elements.
+
+# Exercises
+
+It is time to test your knowledge. Click on [this link](https://github.com/Amuleka/set-exercises/blob/main/set-incomplete.py) to do the exercise.
+
+Once you've done it or tried it for a couple of times you [can check the solution](https://github.com/Amuleka/set-exercises/blob/main/set-complete.py).
