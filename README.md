@@ -48,7 +48,74 @@ In addition to the basic set operations, sets also support operations to combine
 
 These set operations provide convenient ways to work with multiple sets and perform logical operations on their elements.
 
-# Exercises
+## Exercise: Implementing a Set
+
+In this exercise, we will implement a set data structure using a Python class. We will focus on the fundamental operations of a set: adding elements, removing elements, checking membership, and getting the size of the set.
+
+1. Create an empty set using the `set()` constructor or the curly braces `{}` notation.
+
+2. Implement the `add(element)` operation:
+
+   - This operation adds an element to the set.
+   - Use the `add()` method of the set to add the element.
+   - Here's an example implementation of `add`:
+
+   ```python
+   def add(element):
+       my_set.add(element)
+   ```
+
+3. Implement the remove(element) operation:
+
+   - This operation removes an element from the set.
+   - Use the remove() method of the set to remove the element.
+   - Here's an example implementation of remove:
+
+   ```python
+   def remove(element):
+       my_set.remove(element)
+   ```
+
+4. Implement the contains(element) operation:
+
+   - This operation checks if an element is present in the set.
+   - Use the in operator to check if the element is in the set.
+   - Here's an example implementation of contains:
+
+   ```python
+   def contains(element):
+       return element in my_set
+   ```
+
+5. Implement the size() operation:
+
+   - This operation returns the number of elements in the set.
+   - Use the len() function to get the length of the set.
+   - Here's an example implementation of size:
+
+   ```python
+   def size():
+      return len(my_set)
+   ```
+
+6. Test your set implementation by performing the following operations:
+
+   - Call the add operation to add elements to the set.
+   - Call the remove operation to remove an element from the set.
+   - Call the contains operation to check if an element is present in the set.
+   - Call the size operation to get the size of the set.
+
+   ```python
+   add(10)
+   add(20)
+   add(30)
+   remove(20)
+   print(contains(10))   # Expected output: True
+   print(contains(20))   # Expected output: False
+   print(size())         # Expected output: 2
+   ```
+
+# Practice
 
 It is time to test your knowledge. Click on [this link](https://github.com/Amuleka/set-exercises/blob/main/set-incomplete.py) to do the exercise.
 
